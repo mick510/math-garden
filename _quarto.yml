@@ -14,7 +14,6 @@ website:
 format:
   html:
     html-math-method: mathml
-    include-in-header: latex-setup/preamble.tex
 
 extensions:
   - latex-setup/preamble.tex
