@@ -54,3 +54,10 @@ a=b.
 $$
 
 Therefore $f$ is injective.
+
+$$
+\begin{align*}
+1+1&=2 \\
+\implies 2+2&=4
+\end{align*}
+$$
