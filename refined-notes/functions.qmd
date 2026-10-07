@@ -26,7 +26,7 @@ $$
 Consider
 
 $$
-f:\mathbb{R}\to\mathbb{R}
+f:\R\to\R
 $$
 
 defined by
