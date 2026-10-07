@@ -58,6 +58,7 @@ Therefore $f$ is injective.
 $$
 \begin{align*}
 1+1&=2 \\
-\implies 2+2&=4
+\implies 2+2&=4 \\
+\R
 \end{align*}
 $$
