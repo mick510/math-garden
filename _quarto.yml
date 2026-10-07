@@ -8,14 +8,13 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: refined-notes/functions.qmd
-        text: Functions
+      - href: rough-notes
+        text: Rough Notes
+      - href: refined-notes
+        text: Refined Notes
 
 format:
   html:
-    html-math-method: mathml
-
-extensions:
-  - latex-setup/preamble.tex
-
-
+    html-math-method: mathjax
+    include-in-header:
+      - latex-setup/commands.html
