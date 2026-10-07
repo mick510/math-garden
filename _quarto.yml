@@ -11,5 +11,11 @@ website:
       - href: refined-notes/functions.qmd
         text: Functions
 
+format:
+  html:
+    html-math-method: mathml
+
+extensions:
+  - latex-setup/preamble.tex
 
 
