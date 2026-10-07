@@ -1,0 +1,56 @@
+---
+title: "Functions"
+---
+
+# Functions
+
+A function maps every element of a set to exactly one element of
+another set.
+
+Let
+
+$$
+f:A\to B.
+$$
+
+We say that $f$ is **injective** if
+
+$$
+f(a_1)=f(a_2)
+\implies
+a_1=a_2.
+$$
+
+## Example
+
+Consider
+
+$$
+f:\mathbb{R}\to\mathbb{R}
+$$
+
+defined by
+
+$$
+f(x)=2x+1.
+$$
+
+Suppose
+
+$$
+f(a)=f(b).
+$$
+
+Then
+
+$$
+2a+1=2b+1,
+$$
+
+so
+
+$$
+a=b.
+$$
+
+Therefore $f$ is injective.

@@ -1,0 +1,15 @@
+project:
+  title: "math-garden"
+  type: website
+
+website:
+  title: "M's Archives"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: refined-notes/functions.qmd
+        text: Functions
+
+
+

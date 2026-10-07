@@ -1,0 +1,23 @@
+---
+title: Welcome to my Digital Garden
+---
+
+Hello! I go by M, I recently graduated with a BSc in Pure Math, and I hope to go to graduate school to eventually become a professor in an Algebra-related field.
+
+I decided to build this math wiki (of sorts) so I can prepare myself for a Master's while I take a break from school to save up some money. The biggest struggle I had in undergraduate was how interconnected mathematics is, and I needed a big wiki for myself so I could see these connections + for organization purposes, but never had the time. I'm hoping this wiki is of use for others on their mathematical journey! I'll be adding to this wiki constantly so stay tuned :))
+
+Feel free to contact me via any of the following;
+
+- email: msarchives314@gmail.com
+- Instagram
+- X
+
+## Disclaimers and Regulation
+- I am open to constructive feedback! If you find any of the following please feel free to contact me and I will edit the wiki to the best of my ability;
+	- Errors - not everything is 100% accurate
+	- Inconsistencies in analogies, interpretations, generalizations - a lot of those will be personal so there may be caveats or might just not work at all
+	- Poor formatting/layout - if pages feel disorganized please tell me how you would like to see it improved
+- Do not claim this work as your own - I have put a lot of time and effort into creating this, examples of this include but are not limited to;
+	- Academic dishonesty - using proofs or answers to examples or other in assignments, papers, etc
+		- This resembles a blog more than anything! Please don't use this as a citation unless you are given permission or you think it is appropriate
+	- Claiming to be the creator on any platform or in real life

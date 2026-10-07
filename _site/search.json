@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to my Digital Garden",
+    "section": "",
+    "text": "Hello! I go by M, I recently graduated with a BSc in Pure Math, and I hope to go to graduate school to eventually become a professor in an Algebra-related field.\nI decided to build this math wiki (of sorts) so I can prepare myself for a Master’s while I take a break from school to save up some money. The biggest struggle I had in undergraduate was how interconnected mathematics is, and I needed a big wiki for myself so I could see these connections + for organization purposes, but never had the time. I’m hoping this wiki is of use for others on their mathematical journey! I’ll be adding to this wiki constantly so stay tuned :))\nFeel free to contact me via any of the following;"
+  },
+  {
+    "objectID": "index.html#disclaimers-and-regulation",
+    "href": "index.html#disclaimers-and-regulation",
+    "title": "Welcome to my Digital Garden",
+    "section": "Disclaimers and Regulation",
+    "text": "Disclaimers and Regulation\n\nI am open to constructive feedback! If you find any of the following please feel free to contact me and I will edit the wiki to the best of my ability;\n\nErrors - not everything is 100% accurate\nInconsistencies in analogies, interpretations, generalizations - a lot of those will be personal so there may be caveats or might just not work at all\nPoor formatting/layout - if pages feel disorganized please tell me how you would like to see it improved\n\nDo not claim this work as your own - I have put a lot of time and effort into creating this, examples of this include but are not limited to;\n\nAcademic dishonesty - using proofs or answers to examples or other in assignments, papers, etc\n\nThis resembles a blog more than anything! Please don’t use this as a citation unless you are given permission or you think it is appropriate\n\nClaiming to be the creator on any platform or in real life"
+  },
+  {
+    "objectID": "refined-notes/functions.html",
+    "href": "refined-notes/functions.html",
+    "title": "Functions",
+    "section": "",
+    "text": "A function maps every element of a set to exactly one element of another set.\nLet\n\\[\nf:A\\to B.\n\\]\nWe say that \\(f\\) is injective if\n\\[\nf(a_1)=f(a_2)\n\\implies\na_1=a_2.\n\\]\n\n\nConsider\n\\[\nf:\\mathbb{R}\\to\\mathbb{R}\n\\]\ndefined by\n\\[\nf(x)=2x+1.\n\\]\nSuppose\n\\[\nf(a)=f(b).\n\\]\nThen\n\\[\n2a+1=2b+1,\n\\]\nso\n\\[\na=b.\n\\]\nTherefore \\(f\\) is injective."
+  },
+  {
+    "objectID": "refined-notes/functions.html#example",
+    "href": "refined-notes/functions.html#example",
+    "title": "Functions",
+    "section": "",
+    "text": "Consider\n\\[\nf:\\mathbb{R}\\to\\mathbb{R}\n\\]\ndefined by\n\\[\nf(x)=2x+1.\n\\]\nSuppose\n\\[\nf(a)=f(b).\n\\]\nThen\n\\[\n2a+1=2b+1,\n\\]\nso\n\\[\na=b.\n\\]\nTherefore \\(f\\) is injective."
+  }
+]
