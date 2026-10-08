@@ -4,13 +4,13 @@ title: Welcome to my Digital Garden
 
 ## Layout
 
-There are two large sections; [[rough-notes/|rough-notes]] and [[refined-notes/|refined-notes]].
+There are two large sections; [Rough Notes](./rough-notes.qmd) and [Refined Notes](./refined-notes.qmd).
 
-The [[rough-notes/|rough-notes]] folder will contain first draft notes/rough work just to be able to organize everything later. These will be messy so be warned.
+The [Rough Notes](./rough-notes.qmd) folder will contain first draft notes/rough work just to be able to organize everything later. These will be messy so be warned.
 
-The [[refined-notes/|refined-notes]] folder will contain pages that are fully organized, with links between pages so that it's easier to see connections and also refer back to any theorems/results.
+The [Refined Notes](./refined-notes.qmd) folder will contain pages that are fully organized, with links between pages so that it's easier to see connections and also refer back to any theorems/results. If you're not sure where to start, I recommend starting here and look at some of the "Navigation pages" listed there.
 
-The [[Resources]] page is just a list of math-related resources that I want to store. I may not have necessarily read all of them, nor have I necessarily used them to create this wiki. Feel free to take a look at those for your next math read!
+The [Resources](./resources.qmd) page is just a list of math-related resources that I want to store. I may not have necessarily read all of them, nor have I necessarily used them to create this wiki. Feel free to take a look at those for your next math read!
 
 ## About me
 
@@ -20,9 +20,9 @@ I decided to build this math wiki (of sorts) so I can prepare myself for a Maste
 
 Feel free to contact me via any of the following;
 
-- email: msarchives314@gmail.com
-- Instagram
-- X
+- email: [msarchives314@gmail.com](mailto:msarchives314@gmail.com)
+- Instagram: [@msarchives314](https://www.instagram.com/msarchives314/)
+- X: [@ms_archives314](https://x.com/ms_archives314)
 
 ## Disclaimers and Regulation
 - I am open to constructive feedback! If you find any of the following please feel free to contact me and I will edit the wiki to the best of my ability;

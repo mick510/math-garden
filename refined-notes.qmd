@@ -1,0 +1,8 @@
+---
+title: Refined Notes
+---
+
+## Navigation Pages
+Find a starting point for an area of mathematics here.
+
+- [Mathematical Logical](refined-notes/navigation-pages/math-logic.qmd)

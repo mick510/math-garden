@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome to my Digital Garden – M’s Archives</title>
+<title>Refined Notes – M’s Archives</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-afa23945443c308674ce6f1b48cce6e4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-271fd2da8b08fae9a432d7ff9da086b2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,17 +74,20 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
-window.MathJax = {
+MathJax = {
   tex: {
     macros: {
-      R: "\\mathbb{R}",
-      N: "\\mathbb{N}",
-      Z: "\\mathbb{Z}",
-      Q: "\\mathbb{Q}",
-
-      abs: ["\\left|#1\\right|", 1],
-      norm: ["\\left\\|#1\\right\\|", 1],
-      set: ["\\left\\{#1\\right\\}", 1]
+      "N": "\\mathbb{N}",
+      "Z": "\\mathbb{Z}",
+      "Q": "\\mathbb{Q}",
+      "R": "\\mathbb{R}",
+      "C": "\\mathbb{C}",
+      "rbrac": ["\\left(#1\\right)", 1],
+      "sbrac": ["\\left[#1\\right]", 1],
+      "abrac": ["\\left<#1\\right>", 1],
+      "abs": ["\\lvert#1\\rvert", 1],
+      "set": ["\\left\\{#1\\right\\}", 1],
+      "st": "\\text{ s.t. }"
     }
   }
 };
@@ -111,7 +114,7 @@ window.MathJax = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -146,7 +149,7 @@ window.MathJax = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome to my Digital Garden</h1>
+<h1 class="title">Refined Notes</h1>
 </div>
 
 
@@ -163,41 +166,11 @@ window.MathJax = {
 </header>
 
 
-<section id="layout" class="level2">
-<h2 class="anchored" data-anchor-id="layout">Layout</h2>
-<p>There are two large sections; <a href="./rough-notes.html">Rough Notes</a> and <a href="./refined-notes.html">Refined Notes</a>.</p>
-<p>The <a href="./rough-notes.html">Rough Notes</a> folder will contain first draft notes/rough work just to be able to organize everything later. These will be messy so be warned.</p>
-<p>The <a href="./refined-notes.html">Refined Notes</a> folder will contain pages that are fully organized, with links between pages so that it’s easier to see connections and also refer back to any theorems/results. If you’re not sure where to start, I recommend starting here and look at some of the “Navigation pages” listed there.</p>
-<p>The <a href="./resources.html">Resources</a> page is just a list of math-related resources that I want to store. I may not have necessarily read all of them, nor have I necessarily used them to create this wiki. Feel free to take a look at those for your next math read!</p>
-</section>
-<section id="about-me" class="level2">
-<h2 class="anchored" data-anchor-id="about-me">About me</h2>
-<p>Hello! I go by M, I recently graduated with a BSc in Pure Math, and I hope to go to graduate school to eventually become a professor in an Algebra-related field.</p>
-<p>I decided to build this math wiki (of sorts) so I can prepare myself for a Master’s while I take a break from school to save up some money. The biggest struggle I had in undergraduate was how interconnected mathematics is, and I needed a big wiki for myself so I could see these connections + for organization purposes, but never had the time. I’m hoping this wiki is of use for others on their mathematical journey! I’ll be adding to this wiki constantly so stay tuned :))</p>
-<p>Feel free to contact me via any of the following;</p>
+<section id="navigation-pages" class="level2">
+<h2 class="anchored" data-anchor-id="navigation-pages">Navigation Pages</h2>
+<p>Find a starting point for an area of mathematics here.</p>
 <ul>
-<li>email: <a href="mailto:msarchives314@gmail.com">msarchives314@gmail.com</a></li>
-<li>Instagram: <a href="https://www.instagram.com/msarchives314/"><span class="citation" data-cites="msarchives314">@msarchives314</span></a></li>
-<li>X: <a href="https://x.com/ms_archives314"><span class="citation" data-cites="ms_archives314">@ms_archives314</span></a></li>
-</ul>
-</section>
-<section id="disclaimers-and-regulation" class="level2">
-<h2 class="anchored" data-anchor-id="disclaimers-and-regulation">Disclaimers and Regulation</h2>
-<ul>
-<li>I am open to constructive feedback! If you find any of the following please feel free to contact me and I will edit the wiki to the best of my ability;
-<ul>
-<li>Errors - not everything is 100% accurate</li>
-<li>Inconsistencies in analogies, interpretations, generalizations - a lot of those will be personal so there may be caveats or might just not work at all</li>
-<li>Poor formatting/layout - if pages feel disorganized please tell me how you would like to see it improved</li>
-</ul></li>
-<li>Do not claim this work as your own - I have put a lot of time and effort into creating this, examples of this include but are not limited to;
-<ul>
-<li>Academic dishonesty - using proofs or answers to examples or other in assignments, papers, etc
-<ul>
-<li>This resembles a blog more than anything! Please don’t use this as a citation unless you are given permission or you think it is appropriate</li>
-</ul></li>
-<li>Claiming to be the creator on any platform or in real life</li>
-</ul></li>
+<li><a href="./refined-notes/navigation-pages/math-logic.html">Mathematical Logical</a></li>
 </ul>
 
 

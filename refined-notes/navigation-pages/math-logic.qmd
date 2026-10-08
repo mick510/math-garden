@@ -1,0 +1,22 @@
+---
+title: Mathematical Logic
+---
+
+This is probably where everyone should start. The goal with this section is to provide preliminary mathematical concepts to more complex areas of mathematics.
+
+[Number Systems](../number-systems.qmd) - An introduction to the sets of numbers.
+
+[Logical Operators](../logical-operators.qmd) - An introduction to logical operator notations and truth tables.
+
+[Basic Set Theory](../basic-set-theory.qmd) - This is where we define the idea of sets and establish notation pertaining to them.
+
+[Proof Techniques](../proof-techniques.qmd) - A list of commonly used proof techniques.
+
+[Functions](../fxns.qmd) - An introduction to functions (or maps may be used interchangeably).
+
+- [Functions - 1. Composite Functions](../fxns-1.qmd)
+- [Functions - 2. Identity map and Inverses](../fxns-2.qmd)
+- [Functions - 3. Injective, Surjective, Bijective](../fxns-3.qmd)
+- [Functions - 4. Restriction and Extension of a Function](../fxns-4.qmd)
+
+[Relations](../relations.qmd) - This is where we define a relation, and also tie it back to sets.

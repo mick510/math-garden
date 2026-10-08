@@ -1,0 +1,61 @@
+---
+title: "Number Systems"
+---
+
+::: {.callout-caution collapse=true}
+## Prerequisites
+- [Set definition](basic-set-theory.qmd)
+- [Set notation](basic-set-theory.qmd)
+:::
+
+In some branches of math, we tend to focus on one or some of these sets of numbers, or some [[Basic Set Theory#^def-cartesian-product|Cartesian product]] of these sets.
+
+::: {.callout-tip}
+## Definition 0.1 - Integers
+The set of "integers" is the set, $\Z:=\set{0,\pm1,\pm2,\ldots}$. The Z stands for the German word for numbers, "Zahlen".
+:::
+
+::: {.callout-tip}
+## Definition 0.2 - Natural Numbers
+The "natural numbers" is the set of positive [[Number Systems#^def-integers|integers]] and $0$, $\N:=\set{x\in\Z\mid x\geq0}$.
+:::
+
+[Related: Number Theory >](../construction.qmd)
+
+[Related: Group Theory >](../construction.qmd)
+
+::: {.callout-tip}
+## Definition 0.3 - Rationals
+The set of "rationals" is 
+$$
+\Q:=\set{\frac{a}{b}\middle| a,b\in\Z}
+$$
+:::
+
+[Related: Ring Theory >](../construction.qmd)
+
+::: {.callout-tip}
+## Definition 0.4 - Real Numbers
+We define the set of "real numbers", or "reals", as
+$$
+\R:=\set{\text{all decimal expansions}}
+$$
+:::
+
+[Related: Analysis >](../construction.qmd)
+
+::: {.callout-tip}
+## Definition 0.5 - Complex Numbers
+The set of "complex numbers" is denoted by 
+$$
+\C:=\set{a+bi\mid a,b\in\R, i^2=-1}
+$$
+:::
+
+[Related: Complex Analysis >](../construction.qmd)
+
+::: {.callout-tip}
+## Notation 0.1
+To denote strictly positive elements of a set of numbers, we'll use a plus sign on the top right of the set symbol. e.g. $\Z^+,\Q^+,\R^+$.
+
+

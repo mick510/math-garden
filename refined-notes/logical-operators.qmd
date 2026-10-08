@@ -1,0 +1,97 @@
+---
+title: "Logical Operators"
+---
+
+::: {#prerequisite-logical-operators .callout-caution collapse=true}
+## Prerequisites
+- None
+:::
+
+::: {#definition-0.1 .callout-tip}
+## Definition 0.1 - Statement
+A "statement" is a sentence which can be classified as either true or false, which we will abbreviate with T and F.
+:::
+
+::: {#notation-0.1 .callout-tip}
+## Notation 0.1 - Logical operators
+Let $p, q$ each be [statements](#definition-0.1).
+
+1. $\neg p$ -- not $p$, "negation" of $p$
+2. $p\land q$ -- $p$ "and" $q$
+3. $p\lor q$ -- $p$ "or" $q$
+4. $p\implies q$ -- $p$ "implies" $q$
+5. $p\iff q$ -- $p$ "if and only if" $q$, meaning $p\implies q$ and $p\impliedby q$
+:::
+
+::: {#definition-0.2 .callout-tip}
+## Definition 0.2 - Truth Table
+A "truth table" is a table that lists whether a [statements](#definition-0.1) with a [logical operator](#notation-0.1) yields T or F.
+:::
+
+::: {#example-0.1 .callout-warning}
+## Example 0.1
+The above [definition of truth table](#definition-0.2) is left vague on purpose, since it's easier to show an example rather than describing it. Let $p,q$ be [statements](#definition-0.1). Consider the following table;
+
+| $p$ | $q$ | $\neg p$ | $\neg q$ | $p\land q$ | $p\lor q$ | $p\implies q$ | $p\iff q$ |
+| :------: | :-----: | :---------------: | :--------------: | :------------------: | :-----------------: | :------------------------: | :----------------: |
+| T | T |
+| T | F |
+| F | T |
+| F | F |
+
+where the first two columns are given. What will the next statements yield for each combination of $p$ and $q$?
+:::
+
+::: {#answer-0.1 .callout-important collapse=true}
+## Answer
+For $\neg p$, we yield the opposite of $p$, meaning if $p$ is T then $\neg p$ is F and vice versa. The analog is true for $\neg q$.
+
+$p\land q$ is T only when both of $p$ and $q$ are T, otherwise it is F.
+> $p\lor q$ is F only when both of $p$ and $q$ are F, otherwise it is T.
+
+$p\implies q$ is trickier. First the [statement](#definition-0.1) itself is saying "if $p$ is T, then $q$ is T". So if both are T, then this statement is also T. If $p$ is T and $q$ is F, this statement is not satisfied, thus it is F. If $p$ is F and $q$ is T, we still yield T, since there is no information saying otherwise. If both are F, then similarly, we yield T, since this is still possible.
+
+$p\iff q$ requires that the symbol for both sides must match each other.
+
+| $p$ | $q$ | $\neg p$ | $\neg q$ | $p\land q$ | $p\lor q$ | $p\implies q$ | $p\iff q$ |
+| :------: | :-----: | :---------------: | :--------------: | :------------------: | :-----------------: | :------------------------: | :----------------: |
+| T | T | F | F | T | T | T | T |
+| T | F | F | T | F | T | F | F |
+| F | T | T | F | F | T | T | F |
+| F | F | T | T | F | F | T | T |
+::: 
+
+::: {#definition-0.3 .callout-tip}
+## Definition 0.3 - Tautology and Contradiction
+If a [statement](#definition-0.1) is always true, then that statement is a "tautology".
+
+If a  statement is always false, then that statement is a "contradiction".
+:::
+
+::: {#definition-0.4 .callout-tip}
+## Definition 0.4 - Converse, Inverse, Contrapositive
+1. The "converse" of $p\implies q$ is $q\implies p$
+2. The "inverse" of $p\implies q$ is $(\neg p)\implies (\neg q)$
+3. The "contrapositive" of $p\implies q$ is $(\neg q)\implies (\neg p)$
+:::
+
+These phrases are used in various [proof techniques](proof-techniques.qmd).
+
+::: {#example-0.2 .callout-warning}
+## Example 0.2 - Truth Table Extended
+Extend the [truth table](#example-0.1) above to include the [converse, inverse, and contrapositive](#definition-0.4) of $p\implies q$.
+:::
+
+::: {#answer-0.2 .callout-important collapse=true}
+## Answer
+
+| $p$ | $q$ | $p\implies q$ | $p\iff q$ | $q\implies p$ | $(\neg p)\implies (\neg q)$ | $(\neg q)\implies (\neg p)$ |
+| :------: | :-----: | :---------------: | :--------------: | :------------------: | :-----------------: | :------------------------:|
+| T | T | T | T | T | T | T |
+| T | F | F | F | T | T | F |
+| F | T | T | F | F | F | T |
+| F | F | T | T | T | T | T |
+
+
+Notably, the [contrapositive](#definition-0.4) is logically equivalent to $p\implies q$.
+:::

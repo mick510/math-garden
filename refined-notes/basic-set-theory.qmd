@@ -1,0 +1,151 @@
+---
+title: "Basic Set Theory"
+---
+
+::: {#prerequisite-basic-set-theory .callout-caution collapse=true}
+## Prerequisites
+- [Logical Operators](logical-operators.qmd)
+:::
+
+::: {#definition-0.1 .callout-tip}
+## Definition 0.1 - Sets
+A collection of mathematical objects is called a "set", usually denoted with a capital letter. An object in a set is called an "element" or "member" of that set.
+:::
+
+::: {#notation-0.1 .callout-tip}
+## Notation 0.1
+Set notation works as follows. There will be curly brackets with either a list of elements or conditions which dictate the objects which will be contained. For example, 
+$$
+\begin{align}
+A&=\set{a,b,c,\ldots}\\
+B&=\set{x\mid\text{condition}}
+\end{align}
+$$
+where the $|$ is read as "such that".
+
+Other common symbols that will appear are $\in,\cup,\cap$, read as "in", "union", and "intersection" respectively.
+:::
+
+::: {#definition-0.2 .callout-tip}
+## Definition 0.2 - Union and Intersection
+Union is defined as follows;
+$$
+A\cup B:=\set{a\in A\text{ or }b\in B}
+$$
+
+Intersection is defined as follows;
+$$
+A\cap B:=\set{a\in A\mid a\in B}
+$$
+:::
+
+::: {#definition-0.3 .callout-tip}
+## Definition 0.3 - Subsets
+Let $S,T$ be [sets](#definition-0.1). $S$ is a "subset" of $T$ if all [elements](#definition-0.1) in $S$ are also contained in $T$. $S$ is a "proper subset" if we also have that $S\neq T$.
+:::
+
+::: {#notation-0.2 .callout-tip}
+## Notation 0.2
+If $S$ is a subset of $T$, we can write $S\subseteq T$ or $T\supseteq S$ depending on the context. If $S$ is a proper subset of $T$, we write $S\subset T$ or $T\supset S$.
+:::
+
+::: {#example-0.1 .callout-warning}
+## Example 0.1 - Some sets of numbers are subsets of another
+We can describe our common [sets of numbers](number-systems.qmd) to be related by being [subsets](#definition-0.3);
+$$
+\Z^+\subseteq\N\subseteq\Z\subseteq\Q\subseteq\R\subseteq\C
+$$
+Of course there is more to relate but this suffices for the majority of studies of mathematics in my opinion.
+:::
+
+::: {#remark-0.1 .callout-note}
+## Remark 0.1
+Notice how the wording of the definition for [subsets](#definition-0.3) also allows for one to state that for any set $S$, we can say $S\subseteq S$.
+:::
+
+::: {#definition-0.4 .callout-tip}
+## Definition 0.4 - Empty set
+In some cases, we want to define a [set](#definition-0.1) such that it has no [elements](#definition-0.1). We call this the "empty set" or the "null set". This tends to be useful in [probability](../construction.qmd).
+:::
+
+::: {#notation-0.3 .callout-tip}
+## Notation 0.3
+We denote the empty set with $\emptyset$
+:::
+
+::: {#example-0.3 .callout-warning}
+## Example 0.3 - Empty set by Intersection
+We can construct the following set;
+$$
+A=\set{x\in\R\mid x<0\text{ and }x>0}
+$$
+and we see that this is not possible since the two conditions would contradict each other due to the definition of $<$ and $>$, therefore $A=\emptyset$. A more technical way to justify this would be because we have a "[total ordering](../construction.qmd)" in the real numbers. 
+Next consider
+$$
+B=\set{x\in\R^+\middle|\frac{2x}{x+1}>1\text{ and }x<\frac{1}{2}}
+$$
+
+This will also end up yielding the [empty set](#definition-0.4). We rearrange the first condition as follows;
+$$
+\begin{align*}
+  \frac{2x}{x+1}&>1 \\
+   2x&>x+1 \\
+   x&>1
+\end{align*}
+$$
+which we then notice that $x>1>\frac{1}{2}$ which again is a contradiction to the second condition. Hence $B=\emptyset$.
+:::
+
+::: {#definition-0.5 .callout-tip}
+## Definition 0.5 - Order/Cardinality
+Under this context, order and cardinality mean the same thing; the number of elements in a set, $A$. The word "order" is used in many different contexts to have slightly different - but still equivalent meaning. Under the context of set theory, we'll use cardinality to avoid confusion.
+:::
+
+::: {#notation-0.4 .callout-tip}
+## Notation 0.4
+The cardinality of the set $A$ is denoted by $\abs{A}$
+:::
+
+::: {#technique-0.1 .callout-tip}
+## Technique 0.1 - Double Inclusion
+Let $S, S'$ be sets that are defined differently. Sometimes it is in our interest to prove that $S=S'$, despite having arose from separate contexts. In this case, we often prove that $S\subseteq S'$ and $S\supseteq S'$ by showing that an arbitrary element in the subset will always be contained in the subset. This implies equality because this characteristic is unique to equal sets, due to the definition of subset. We call this proof method "double inclusion".
+:::
+
+::: {#example-0.4 .callout-warning}
+## Example 0.4 - Using double inclusion
+Let $S:=\set{x\in\R\mid1\leq x\leq2}, T:=\set{5x\mid x\in S}$.
+
+Claim to be shown; $T=\set{y\in\R\mid5\leq y\leq10}$.
+:::
+
+::: {#answer-0.4 .callout-important collapse=true}
+## Answer
+We use [double inclusion](#technique-0.1) to show this.
+
+($\subseteq$)
+
+Suppose $t\in T\implies t=5x$ for some $x\in S$. By algebra, we know that $1\leq x\leq 2\implies 5\leq5x=t\leq10$ which by definition means that $t\in\set{y\in\R\mid 5\leq y\leq 10}$ as needed.
+
+($\supseteq$)
+Suppose $5z\in\set{y\in\R\mid 5\leq y\leq10}$ for some $z\in\R$, $\implies5\leq 5z\leq10$ by definition. Then $1\leq z\leq 2$ by algebra $\implies z\in S$. Therefore, by definition of $T$, we see that $5z\in T$ as required.
+
+$\therefore T=\set{y\in\R\mid 5\leq y\leq10}$ by double inclusion.
+:::
+
+::: {#definition-0.6 .callout-tip}
+## Definition 0.6 - Ordered pair
+An ordered pair is a mathematical object with two entries, the first and second, written as $(x,y)$, where the order of the two entries will yield different results. e.g. $(4,5)\neq(5,4)$. A use case of this is coordinates on the Euclidean plane.
+:::
+
+::: {#definition-0.7 .callout-tip}
+## Definition 0.7 - Cartesian Product
+The "Cartesian product" of two sets $A,B$ is the set of all [ordered pairs](#definition-0.6) with the first entry as an element of $A$ and the second an element of $B$.
+:::
+
+::: {#notation-0.5 .callout-tip}
+## Notation 0.5
+Cartesian product is denoted as follows;
+$$
+A\times B:=\set{(a,b)\mid a\in A, b\in B}
+$$
+:::

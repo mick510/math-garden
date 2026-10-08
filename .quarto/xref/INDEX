@@ -5,5 +5,35 @@
   "refined-notes/functions.qmd": {
     "functions.html": "f7250727",
     "functions.tex": "b6a59d07"
+  },
+  "refined-notes/basic-set-theory.qmd": {
+    "basic-set-theory.html": "611f5b3a"
+  },
+  "refined-notes/navigation-pages/math-logic.qmd": {
+    "math-logic.html": "a4fdc243"
+  },
+  "resources.qmd": {
+    "resources.html": "383db2e2"
+  },
+  "refined-notes.qmd": {
+    "refined-notes.html": "8ffe1f81"
+  },
+  "rough-notes.qmd": {
+    "rough-notes.html": "e1a97acb"
+  },
+  "refined-notes/number-systems.qmd": {
+    "number-systems.html": "29c32dca"
+  },
+  "construction.qmd": {
+    "construction.html": "9e2237db"
+  },
+  "protocol-of-sorts.qmd": {
+    "protocol-of-sorts.html": "180de3d0"
+  },
+  "refined-notes/logical-operators.qmd": {
+    "logical-operators.html": "4f9e2fe0"
+  },
+  "refined-notes/proof-techniques.qmd": {
+    "proof-techniques.html": "c96ef668"
   }
 }

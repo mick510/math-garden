@@ -1,0 +1,104 @@
+---
+title: "Proof Techniques"
+---
+
+::: {#prerequisite-proof-techniques .callout-caution collapse=true}
+## Prerequisites
+- [Logical Operators](logical-operators.qmd)
+- [Basic Set Theory](basic-set-theory.qmd)
+:::
+
+::: {#definition-0.1 .callout-tip}
+## Definition 0.1 - Types of results and miscellaneous terminology
+1. "Theorem" - An important mathematical result, usually the punchline
+2. "Proposition"/"Lemma" - A less important result, but is necessary in the proof of a bigger theorem
+3. "Corollary" - A somewhat straightforward consequence from a previous result
+4. "Remark" - May be similar to a corollary, or a note about language used
+5. "Technique" - A generalized strategy in order to solve a problem/prove a result
+6. "Algorithm" - A generalized step-by-step to perform some sort of computation
+7. "Definition" - A word, phrase, variable, or other which we define
+8. "Axiom" - Usually a rule which we define to create some space with a sort of 'order'
+9. "Assume" - A condition which we take for granted for the proof
+10. "Arbitrary" - Any mathematical object (within some set of conditions)
+11. "Consider"/"Let" - Signalling that we are using a constant (may be explicit or arbitrary) or some fixed mathematical object
+12. "WTS" - Short for "want to show", makes the goal clearer
+:::
+
+::: {#remark-0.1 .callout-note}
+## Remark 0.1
+Note that most, if not all, [mathematical statements](logical-operators.qmd#definition-0.1) can be read as $p\implies q$ to some capacity, where $p$ is some condition and $q$ is the result we wish to prove.
+:::
+
+For all of the following techniques, consider we have the statement $p\implies q$ which we wish to prove, unless stated otherwise.
+
+::: {#technique-0.1 .callout-tip}
+## Technique 0.1 - Direct Proof
+A "direct proof" is when we start by assuming $p$ is true, then by logic, definitions, axioms, and/or previous results, we make our way to getting the statement $q$.
+:::
+
+::: {#technique-0.2 .callout-tip}
+## Technique 0.2 - Proof by Contrapositive
+"Proof by contrapositive" is when we show the [contrapositive](logical-operators.qmd#definition-0.4) of the statement is true, that is $(\neg q) \implies (\neg p)$, since this statement is logically equivalent to $p\implies q$, as shown in [Logical Operators - Example 0.2](logical-operators.qmd#example-0.2).
+:::
+
+::: {#technique-0.3 .callout-tip}
+## Technique 0.3 - Proof by Contradiction
+Sometimes none of the above techniques are clear answers to prove a statement, so we instead use "proof by contradiction". This is when we assume that $p$ is true and $q$ is false. This should eventually lead to some sort of absurdity/contradiction.
+:::
+
+::: {#technique-0.4 .callout-tip}
+## Technique 0.4 - Cases
+A "proof by cases" is when we must divide the conditions into separate cases which still satisfy $p$, and then use the appropriate proof technique on each case. In order to have a proof by cases, one must be careful of how each case is constructed, as the union must cover the whole set which the result is built upon, as well as not intersect.
+:::
+
+::: {#technique-0.5 .callout-tip}
+## Technique 0.5 - Principle of Mathematical Induction
+If we are to prove a statement for all integers larger than some $n_0\in\Z$, in the case of a regular [direct proof](#technique-0.1), we would show that $p\implies q$ for an arbitrary $n$, which then by the arbitrariness of $n$ would suffice. However, this does not necessarily work for all proofs, so we instead employ the "principle of mathematical induction".
+
+Let $S(n)$ be the statement $p\implies q$ using the integer $n$. The idea of this proof technique is to use the $n$th case to prove the $n+1$th case, which effectively proves the case for all integers larger than $n_0$.
+
+The steps are as follows;
+
+\(i\) Prove the "base case" - show that $S(n_0)$ is true
+
+\(ii\) Inductive step - assume $S(n)$ is true for some $n\geq n_0$, show that $S(n+1)$ is true using the assumption
+
+Once these steps are satisfied, then by the principle of mathematical induction (PMI), $S(n)$ is true for all integers $n\geq n_0$.
+:::
+
+::: {#remark-0.2 .callout-tip}
+## Remark 0.2
+One can imagine [PMI](#technique-0.5) to be the same as lining up infinite dominos; if the first domino falls (base case is true), then the next domino will fall, and so forth, and the $n$th domino falls which causes the $n+1$th domino to fall (inductive step).
+:::
+
+The proof that [PMI](#technique-0.5) works is due to the property of the integers.
+
+[Related: Number Theory >](../construction.qmd)
+
+::: {#technique-0.6 .callout-tip}
+## Technique 0.6 - Principle of Strong Induction
+Let $n_0\in\Z$ and $S(n)$ is a statement for the integer $n\geq n_0$.
+
+\(i\) Prove the "base case" - show that $S(n_0)$ is true  
+
+\(ii\) Inductive step - assume $S(n_0), S(n_0+1),\ldots, S(n)$ are all true for some $n\geq n_0$, show that $S(n+1)$ is true using the assumption
+
+This is what we call the "principle of strong induction". This method is different from [PMI](#technique-0.5) above as we have a different amount of information which we can make use of in the inductive step. 
+:::
+
+::: {#proof-0.1 .callout-important collapse=true}
+## Proof
+The proof for the principle of strong induction is by [ordinary induction](#technique-0.5) on $n$.
+
+Let us rephrase the goal in a way which matches the definition of induction. Let $P(n)$ be the statement that $S(k)$ is true for all $n_0\leq k\leq n$. We will use induction on $n$ to show that $P(n)$ is true for all $n\geq n_0$. Moreover, our statement to be proven is "steps (i) and (ii) are true implies $S(n)$ is true $\forall n\geq n_0$".
+
+**(Base case: $P(n_0)$)**
+
+$P(n_0)$ is the statement $S(n_0)$ is true. This is provided by the assumption that step (i) is true.
+
+**(Inductive step: Assume $P(n)$ is true for some $n\geq n_0$, WTS $P(n+1)$ is true)**
+
+$P(n)$ means $S(k)$ is true for all $n_0\leq k\leq n$. Since we assume step (ii) is true, this implies that $S(n+1)$ is also true. Combining the two statements gives us that $S(k)$ is true for all $n_0\leq k\leq n+1$, i.e. $P(n+1)$ is true as required.
+
+Therefore, by [PMI](#technique-0.5), $P(n)$ is true for all $n\geq n_0$. Hence, the principle of strong induction works for any statement, due to the arbitrariness of $S(k)$.
+:::

@@ -4,21 +4,21 @@
     "href": "index.html",
     "title": "Welcome to my Digital Garden",
     "section": "",
-    "text": "There are two large sections; [[rough-notes/|rough-notes]] and [[refined-notes/|refined-notes]].\nThe [[rough-notes/|rough-notes]] folder will contain first draft notes/rough work just to be able to organize everything later. These will be messy so be warned.\nThe [[refined-notes/|refined-notes]] folder will contain pages that are fully organized, with links between pages so that it’s easier to see connections and also refer back to any theorems/results.\nThe [[Resources]] page is just a list of math-related resources that I want to store. I may not have necessarily read all of them, nor have I necessarily used them to create this wiki. Feel free to take a look at those for your next math read!"
+    "text": "There are two large sections; Rough Notes and Refined Notes.\nThe Rough Notes folder will contain first draft notes/rough work just to be able to organize everything later. These will be messy so be warned.\nThe Refined Notes folder will contain pages that are fully organized, with links between pages so that it’s easier to see connections and also refer back to any theorems/results. If you’re not sure where to start, I recommend starting here and look at some of the “Navigation pages” listed there.\nThe Resources page is just a list of math-related resources that I want to store. I may not have necessarily read all of them, nor have I necessarily used them to create this wiki. Feel free to take a look at those for your next math read!"
   },
   {
     "objectID": "index.html#layout",
     "href": "index.html#layout",
     "title": "Welcome to my Digital Garden",
     "section": "",
-    "text": "There are two large sections; [[rough-notes/|rough-notes]] and [[refined-notes/|refined-notes]].\nThe [[rough-notes/|rough-notes]] folder will contain first draft notes/rough work just to be able to organize everything later. These will be messy so be warned.\nThe [[refined-notes/|refined-notes]] folder will contain pages that are fully organized, with links between pages so that it’s easier to see connections and also refer back to any theorems/results.\nThe [[Resources]] page is just a list of math-related resources that I want to store. I may not have necessarily read all of them, nor have I necessarily used them to create this wiki. Feel free to take a look at those for your next math read!"
+    "text": "There are two large sections; Rough Notes and Refined Notes.\nThe Rough Notes folder will contain first draft notes/rough work just to be able to organize everything later. These will be messy so be warned.\nThe Refined Notes folder will contain pages that are fully organized, with links between pages so that it’s easier to see connections and also refer back to any theorems/results. If you’re not sure where to start, I recommend starting here and look at some of the “Navigation pages” listed there.\nThe Resources page is just a list of math-related resources that I want to store. I may not have necessarily read all of them, nor have I necessarily used them to create this wiki. Feel free to take a look at those for your next math read!"
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Welcome to my Digital Garden",
     "section": "About me",
-    "text": "About me\nHello! I go by M, I recently graduated with a BSc in Pure Math, and I hope to go to graduate school to eventually become a professor in an Algebra-related field.\nI decided to build this math wiki (of sorts) so I can prepare myself for a Master’s while I take a break from school to save up some money. The biggest struggle I had in undergraduate was how interconnected mathematics is, and I needed a big wiki for myself so I could see these connections + for organization purposes, but never had the time. I’m hoping this wiki is of use for others on their mathematical journey! I’ll be adding to this wiki constantly so stay tuned :))\nFeel free to contact me via any of the following;\n\nemail: msarchives314@gmail.com\nInstagram\nX"
+    "text": "About me\nHello! I go by M, I recently graduated with a BSc in Pure Math, and I hope to go to graduate school to eventually become a professor in an Algebra-related field.\nI decided to build this math wiki (of sorts) so I can prepare myself for a Master’s while I take a break from school to save up some money. The biggest struggle I had in undergraduate was how interconnected mathematics is, and I needed a big wiki for myself so I could see these connections + for organization purposes, but never had the time. I’m hoping this wiki is of use for others on their mathematical journey! I’ll be adding to this wiki constantly so stay tuned :))\nFeel free to contact me via any of the following;\n\nemail: msarchives314@gmail.com\nInstagram: @msarchives314\nX: @ms_archives314"
   },
   {
     "objectID": "index.html#disclaimers-and-regulation",
@@ -26,5 +26,145 @@
     "title": "Welcome to my Digital Garden",
     "section": "Disclaimers and Regulation",
     "text": "Disclaimers and Regulation\n\nI am open to constructive feedback! If you find any of the following please feel free to contact me and I will edit the wiki to the best of my ability;\n\nErrors - not everything is 100% accurate\nInconsistencies in analogies, interpretations, generalizations - a lot of those will be personal so there may be caveats or might just not work at all\nPoor formatting/layout - if pages feel disorganized please tell me how you would like to see it improved\n\nDo not claim this work as your own - I have put a lot of time and effort into creating this, examples of this include but are not limited to;\n\nAcademic dishonesty - using proofs or answers to examples or other in assignments, papers, etc\n\nThis resembles a blog more than anything! Please don’t use this as a citation unless you are given permission or you think it is appropriate\n\nClaiming to be the creator on any platform or in real life"
+  },
+  {
+    "objectID": "rough-notes.html",
+    "href": "rough-notes.html",
+    "title": "Rough Notes",
+    "section": "",
+    "text": "aaa"
+  },
+  {
+    "objectID": "rough-notes.html#recent",
+    "href": "rough-notes.html#recent",
+    "title": "Rough Notes",
+    "section": "",
+    "text": "aaa"
+  },
+  {
+    "objectID": "refined-notes.html",
+    "href": "refined-notes.html",
+    "title": "Refined Notes",
+    "section": "",
+    "text": "Find a starting point for an area of mathematics here.\n\nMathematical Logical"
+  },
+  {
+    "objectID": "refined-notes.html#navigation-pages",
+    "href": "refined-notes.html#navigation-pages",
+    "title": "Refined Notes",
+    "section": "",
+    "text": "Find a starting point for an area of mathematics here.\n\nMathematical Logical"
+  },
+  {
+    "objectID": "refined-notes/navigation-pages/math-logic.html",
+    "href": "refined-notes/navigation-pages/math-logic.html",
+    "title": "Mathematical Logic",
+    "section": "",
+    "text": "This is probably where everyone should start. The goal with this section is to provide preliminary mathematical concepts to more complex areas of mathematics.\nNumber Systems - An introduction to the sets of numbers.\nLogical Operators - An introduction to logical operator notations and truth tables.\nBasic Set Theory - This is where we define the idea of sets and establish notation pertaining to them.\nProof Techniques - A list of commonly used proof techniques.\nFunctions - An introduction to functions (or maps may be used interchangeably).\n\nFunctions - 1. Composite Functions\nFunctions - 2. Identity map and Inverses\nFunctions - 3. Injective, Surjective, Bijective\nFunctions - 4. Restriction and Extension of a Function\n\nRelations - This is where we define a relation, and also tie it back to sets."
+  },
+  {
+    "objectID": "refined-notes/number-systems.html",
+    "href": "refined-notes/number-systems.html",
+    "title": "Number Systems",
+    "section": "",
+    "text": "CautionPrerequisites\n\n\n\n\n\n\nSet definition\nSet notation\n\n\n\n\nIn some branches of math, we tend to focus on one or some of these sets of numbers, or some [[Basic Set Theory#^def-cartesian-product|Cartesian product]] of these sets.\n\n\n\n\n\n\nTipDefinition 0.1 - Integers\n\n\n\nThe set of “integers” is the set, \\(\\Z:=\\set{0,\\pm1,\\pm2,\\ldots}\\). The Z stands for the German word for numbers, “Zahlen”.\n\n\n\n\n\n\n\n\nTipDefinition 0.2 - Natural Numbers\n\n\n\nThe “natural numbers” is the set of positive [[Number Systems#^def-integers|integers]] and \\(0\\), \\(\\N:=\\set{x\\in\\Z\\mid x\\geq0}\\).\n\n\nRelated: Number Theory &gt;\nRelated: Group Theory &gt;\n\n\n\n\n\n\nTipDefinition 0.3 - Rationals\n\n\n\nThe set of “rationals” is \\[\n\\Q:=\\set{\\frac{a}{b}\\middle| a,b\\in\\Z}\n\\]\n\n\nRelated: Ring Theory &gt;\n\n\n\n\n\n\nTipDefinition 0.4 - Real Numbers\n\n\n\nWe define the set of “real numbers”, or “reals”, as \\[\n\\R:=\\set{\\text{all decimal expansions}}\n\\]\n\n\nRelated: Analysis &gt;\n\n\n\n\n\n\nTipDefinition 0.5 - Complex Numbers\n\n\n\nThe set of “complex numbers” is denoted by \\[\n\\C:=\\set{a+bi\\mid a,b\\in\\R, i^2=-1}\n\\]\n\n\nRelated: Complex Analysis &gt;\n\n\n\n\n\n\nTipNotation 0.1\n\n\n\nTo denote strictly positive elements of a set of numbers, we’ll use a plus sign on the top right of the set symbol. e.g. \\(\\Z^+,\\Q^+,\\R^+\\)."
+  },
+  {
+    "objectID": "refined-notes/number-systems.html#definition-0.1---integers",
+    "href": "refined-notes/number-systems.html#definition-0.1---integers",
+    "title": "Number Systems",
+    "section": "Definition 0.1 - Integers",
+    "text": "Definition 0.1 - Integers\nThe set of “integers” is the set, \\(\\Z:=\\set{0,\\pm1,\\pm2,\\ldots}\\). The Z stands for the German word for numbers, “Zahlen”."
+  },
+  {
+    "objectID": "construction.html",
+    "href": "construction.html",
+    "title": "Under Construction!",
+    "section": "",
+    "text": "Hi! That page is still under construction… It will be added eventually, please be patient!"
+  },
+  {
+    "objectID": "protocol-of-sorts.html",
+    "href": "protocol-of-sorts.html",
+    "title": "Protocol of sorts",
+    "section": "",
+    "text": "These are just personal reminders for how I’m formatting/shortcuts/etc. Feel free to use this for reference as well."
+  },
+  {
+    "objectID": "protocol-of-sorts.html#links",
+    "href": "protocol-of-sorts.html#links",
+    "title": "Protocol of sorts",
+    "section": "Links",
+    "text": "Links\n[Text shown](path) - for linking pages\n\n../file-name.qmd - if the file is in a previous folder\n../../file-name.qmd - if the file is in two folders back and etc\n\n[Text shown](url) - for external links\n[Text shown](url){target=\"_blank\"} - for external links and open in a new tab\nWikipedia - same tab\nWikipedia - new tab"
+  },
+  {
+    "objectID": "protocol-of-sorts.html#callouts",
+    "href": "protocol-of-sorts.html#callouts",
+    "title": "Protocol of sorts",
+    "section": "Callouts",
+    "text": "Callouts\nUse callouts for definitions, results, examples, proofs, etc. Each must be labelled with #type-number, type is just the name of the type of result or other. e.g Definition would have type ‘definition’.\n\n\n\n\n\n\nTipDefinition 0.1 - Functions\n\n\n\nDefinition of function goes here.\n\n\n::: {#definition-0.1 .callout-tip}\n## Definition 0.1 - Functions\nDefinition of function goes here.\n:::\n\nDefinitions\nNotation\nAxioms\n\n\n\n\n\n\n\nNoteTheorem 0.1 - Green’s Theorem\n\n\n\nGreen’s Theorem goes here.\n\n\n::: {#theorem-0.1 .callout-note}\n## Theorem 0.1 - Green's Theorem\nGreen's Theorem goes here.\n:::\n\nTheorems\nPropositions\nCorollaries\nLemmas\nRemarks\n\n\n\n\n\n\n\nWarningExample 0.1\n\n\n\nThe integers under addition is a group.\n\n\n::: {#example-0.1 .callout-warning}\n## Example 0.1\nThe integers under addition is a group.\n:::\n\nExamples\n\n\n\n\n\n\n\nImportantAnswer\n\n\n\n\n\nWe show that the integers under addition is a group using the group definition.\n\n\n\n::: {#answer-0.1 .callout-important collapse=true}\n## Answer\nWe show that the integers under addition is a group using the group definition.\n:::\n\nProofs\nAnswers\n\n\n\n\n\n\n\nCautionPrerequisites\n\n\n\n\n\n\nSet notation\n\n\n\n\n::: {#prerequisite-page .callout-caution collapse=true}\n## Prerequisites\n- Set notation\n:::\n\nPrerequisites (to the page) -&gt; prq\nHints -&gt; hint\n\nChecking that the linking works. Look at the first definition."
+  },
+  {
+    "objectID": "protocol-of-sorts.html#numbering",
+    "href": "protocol-of-sorts.html#numbering",
+    "title": "Protocol of sorts",
+    "section": "Numbering",
+    "text": "Numbering\n\nDefining multiple terms in one definition callout; 1., 2., 3., etc\nOne term has multiple conditions to be defined; (i), (ii), (iii), etc\nMultiple results in one result callout; (a), (b), (c), etc\nMultiple conditions for a result; (i), (ii), (iii), etc\n\n(i) Note that for these styles of lists\n(ii) Quarto automatically makes them into say ii.\n(a) Use backslashes before each bracket to make sure I get the brackets\n(b) i.e. use \\(b\\)"
+  },
+  {
+    "objectID": "protocol-of-sorts.html#linking-callouts",
+    "href": "protocol-of-sorts.html#linking-callouts",
+    "title": "Protocol of sorts",
+    "section": "Linking callouts",
+    "text": "Linking callouts\n\n\n\n\n\n\nTipDefinition 0.2 - Some definition\n\n\n\nHere is the definition.\n\n\nLook at some definition."
+  },
+  {
+    "objectID": "protocol-of-sorts.html#linking",
+    "href": "protocol-of-sorts.html#linking",
+    "title": "Protocol of sorts",
+    "section": "Linking",
+    "text": "Linking\nWhen introducing notation for a definition, the defined word/phrase/other will not be linked.\nIf I need to reference a result on a different page the shown text will be “Page Name - Result ##”. If I am referencing a result in the same page, it will just be “Result ##”.\nI will be linking every first instance of terminology in a callout and when I think it’s important.\nNo links in the callout title.\nA lot of ‘basic’ terms won’t be linked unless it is the subject of the sentence/section.\nIf I haven’t yet made a page/section about something I reference, it’ll lead to the construction page (construction.qmd).\n\n\n\n\n\n\nCautionList of “basic terms”\n\n\n\n\n\n\nSet\nElement\nSubset\nSet of numbers\nIntersect/Union\nContradict/absurd\nStatement\nDirect proof\nFunction/map\nDomain"
+  },
+  {
+    "objectID": "protocol-of-sorts.html#images",
+    "href": "protocol-of-sorts.html#images",
+    "title": "Protocol of sorts",
+    "section": "Images",
+    "text": "Images\n![image-caption](images/file-name.png){#image-0.1} - “image-caption” will show up underneath the image, may be empty\n\n\n\nFunctions\n\n\nChecking if labelling is working: look at Functions."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This page is just a list of math-related resources that I want to store. I may not have necessarily read all of them, nor have I necessarily used them to create this wiki. Feel free to take a look at those for your next math read!\n\nBooks\n\nAbstract Algebra Fourth Edition - Beachy & Blaire\nAbstract Algebra - Dummit & Foote\nLinear Algebra Done Right - Axler\nCombinatorics Through Guided Discovery - Bogart\nLatin Squares and their Applications - Keedwell & Denes\n\n\n\nLinks"
+  },
+  {
+    "objectID": "refined-notes/logical-operators.html",
+    "href": "refined-notes/logical-operators.html",
+    "title": "Logical Operators",
+    "section": "",
+    "text": "CautionPrerequisites\n\n\n\n\n\n\nNone\n\n\n\n\n\n\n\n\n\n\nTipDefinition 0.1 - Statement\n\n\n\nA “statement” is a sentence which can be classified as either true or false, which we will abbreviate with T and F.\n\n\n\n\n\n\n\n\nTipNotation 0.1 - Logical operators\n\n\n\nLet \\(p, q\\) each be statements.\n\n\\(\\neg p\\) – not \\(p\\), “negation” of \\(p\\)\n\\(p\\land q\\) – \\(p\\) “and” \\(q\\)\n\\(p\\lor q\\) – \\(p\\) “or” \\(q\\)\n\\(p\\implies q\\) – \\(p\\) “implies” \\(q\\)\n\\(p\\iff q\\) – \\(p\\) “if and only if” \\(q\\), meaning \\(p\\implies q\\) and \\(p\\impliedby q\\)\n\n\n\n\n\n\n\n\n\nTipDefinition 0.2 - Truth Table\n\n\n\nA “truth table” is a table that lists whether a statements with a logical operator yields T or F.\n\n\n\n\n\n\n\n\nWarningExample 0.1\n\n\n\nThe above definition of truth table is left vague on purpose, since it’s easier to show an example rather than describing it. Let \\(p,q\\) be statements. Consider the following table;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(p\\)\n\\(q\\)\n\\(\\neg p\\)\n\\(\\neg q\\)\n\\(p\\land q\\)\n\\(p\\lor q\\)\n\\(p\\implies q\\)\n\\(p\\iff q\\)\n\n\n\n\nT\nT\n\n\n\n\n\n\n\n\nT\nF\n\n\n\n\n\n\n\n\nF\nT\n\n\n\n\n\n\n\n\nF\nF\n\n\n\n\n\n\n\n\n\nwhere the first two columns are given. What will the next statements yield for each combination of \\(p\\) and \\(q\\)?\n\n\n\n\n\n\n\n\nImportantAnswer\n\n\n\n\n\nFor \\(\\neg p\\), we yield the opposite of \\(p\\), meaning if \\(p\\) is T then \\(\\neg p\\) is F and vice versa. The analog is true for \\(\\neg q\\).\n\\(p\\land q\\) is T only when both of \\(p\\) and \\(q\\) are T, otherwise it is F. &gt; \\(p\\lor q\\) is F only when both of \\(p\\) and \\(q\\) are F, otherwise it is T.\n\\(p\\implies q\\) is trickier. First the statement itself is saying “if \\(p\\) is T, then \\(q\\) is T”. So if both are T, then this statement is also T. If \\(p\\) is T and \\(q\\) is F, this statement is not satisfied, thus it is F. If \\(p\\) is F and \\(q\\) is T, we still yield T, since there is no information saying otherwise. If both are F, then similarly, we yield T, since this is still possible.\n\\(p\\iff q\\) requires that the symbol for both sides must match each other.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(p\\)\n\\(q\\)\n\\(\\neg p\\)\n\\(\\neg q\\)\n\\(p\\land q\\)\n\\(p\\lor q\\)\n\\(p\\implies q\\)\n\\(p\\iff q\\)\n\n\n\n\nT\nT\nF\nF\nT\nT\nT\nT\n\n\nT\nF\nF\nT\nF\nT\nF\nF\n\n\nF\nT\nT\nF\nF\nT\nT\nF\n\n\nF\nF\nT\nT\nF\nF\nT\nT\n\n\n\n\n\n\n\n\n\n\n\n\nTipDefinition 0.3 - Tautology and Contradiction\n\n\n\nIf a statement is always true, then that statement is a “tautology”.\nIf a statement is always false, then that statement is a “contradiction”.\n\n\n\n\n\n\n\n\nTipDefinition 0.4 - Converse, Inverse, Contrapositive\n\n\n\n\nThe “converse” of \\(p\\implies q\\) is \\(q\\implies p\\)\nThe “inverse” of \\(p\\implies q\\) is \\((\\neg p)\\implies (\\neg q)\\)\nThe “contrapositive” of \\(p\\implies q\\) is \\((\\neg q)\\implies (\\neg p)\\)\n\n\n\nThese phrases are used in various proof techniques.\n\n\n\n\n\n\nWarningExample 0.2 - Truth Table Extended\n\n\n\nExtend the truth table above to include the converse, inverse, and contrapositive of \\(p\\implies q\\).\n\n\n\n\n\n\n\n\nImportantAnswer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(p\\)\n\\(q\\)\n\\(p\\implies q\\)\n\\(p\\iff q\\)\n\\(q\\implies p\\)\n\\((\\neg p)\\implies (\\neg q)\\)\n\\((\\neg q)\\implies (\\neg p)\\)\n\n\n\n\nT\nT\nT\nT\nT\nT\nT\n\n\nT\nF\nF\nF\nT\nT\nF\n\n\nF\nT\nT\nF\nF\nF\nT\n\n\nF\nF\nT\nT\nT\nT\nT\n\n\n\nNotably, the contrapositive is logically equivalent to \\(p\\implies q\\)."
+  },
+  {
+    "objectID": "refined-notes/logical-operators.html#example-0.2---truth-table-extended",
+    "href": "refined-notes/logical-operators.html#example-0.2---truth-table-extended",
+    "title": "Logical Operators",
+    "section": "Example 0.2 - Truth Table Extended",
+    "text": "Example 0.2 - Truth Table Extended\nExtend the truth table above to include the [[Logical Operators#^def-converse-inverse-contrapositive|converse, inverse, and contrapositive]] of \\(p\\implies q\\)."
+  },
+  {
+    "objectID": "refined-notes/basic-set-theory.html",
+    "href": "refined-notes/basic-set-theory.html",
+    "title": "Basic Set Theory",
+    "section": "",
+    "text": "CautionPrerequisites\n\n\n\n\n\n\nLogical Operators\n\n\n\n\n\n\n\n\n\n\nTipDefinition 0.1 - Sets\n\n\n\nA collection of mathematical objects is called a “set”, usually denoted with a capital letter. An object in a set is called an “element” or “member” of that set.\n\n\n\n\n\n\n\n\nTipNotation 0.1\n\n\n\nSet notation works as follows. There will be curly brackets with either a list of elements or conditions which dictate the objects which will be contained. For example, \\[\n\\begin{align}\nA&=\\set{a,b,c,\\ldots}\\\\\nB&=\\set{x\\mid\\text{condition}}\n\\end{align}\n\\] where the \\(|\\) is read as “such that”.\nOther common symbols that will appear are \\(\\in,\\cup,\\cap\\), read as “in”, “union”, and “intersection” respectively.\n\n\n\n\n\n\n\n\nTipDefinition 0.2 - Union and Intersection\n\n\n\nUnion is defined as follows; \\[\nA\\cup B:=\\set{a\\in A\\text{ or }b\\in B}\n\\]\nIntersection is defined as follows; \\[\nA\\cap B:=\\set{a\\in A\\mid a\\in B}\n\\]\n\n\n\n\n\n\n\n\nTipDefinition 0.3 - Subsets\n\n\n\nLet \\(S,T\\) be sets. \\(S\\) is a “subset” of \\(T\\) if all elements in \\(S\\) are also contained in \\(T\\). \\(S\\) is a “proper subset” if we also have that \\(S\\neq T\\).\n\n\n\n\n\n\n\n\nTipNotation 0.2\n\n\n\nIf \\(S\\) is a subset of \\(T\\), we can write \\(S\\subseteq T\\) or \\(T\\supseteq S\\) depending on the context. If \\(S\\) is a proper subset of \\(T\\), we write \\(S\\subset T\\) or \\(T\\supset S\\).\n\n\n\n\n\n\n\n\nWarningExample 0.1 - Some sets of numbers are subsets of another\n\n\n\nWe can describe our common sets of numbers to be related by being subsets; \\[\n\\Z^+\\subseteq\\N\\subseteq\\Z\\subseteq\\Q\\subseteq\\R\\subseteq\\C\n\\] Of course there is more to relate but this suffices for the majority of studies of mathematics in my opinion.\n\n\n\n\n\n\n\n\nNoteRemark 0.1\n\n\n\nNotice how the wording of the definition for subsets also allows for one to state that for any set \\(S\\), we can say \\(S\\subseteq S\\).\n\n\n\n\n\n\n\n\nTipDefinition 0.4 - Empty set\n\n\n\nIn some cases, we want to define a set such that it has no elements. We call this the “empty set” or the “null set”. This tends to be useful in probability.\n\n\n\n\n\n\n\n\nTipNotation 0.3\n\n\n\nWe denote the empty set with \\(\\emptyset\\)\n\n\n\n\n\n\n\n\nWarningExample 0.3 - Empty set by Intersection\n\n\n\nWe can construct the following set; \\[\nA=\\set{x\\in\\R\\mid x&lt;0\\text{ and }x&gt;0}\n\\] and we see that this is not possible since the two conditions would contradict each other due to the definition of \\(&lt;\\) and \\(&gt;\\), therefore \\(A=\\emptyset\\). A more technical way to justify this would be because we have a “total ordering” in the real numbers. Next consider \\[\nB=\\set{x\\in\\R^+\\middle|\\frac{2x}{x+1}&gt;1\\text{ and }x&lt;\\frac{1}{2}}\n\\]\nThis will also end up yielding the empty set. We rearrange the first condition as follows; \\[\n\\begin{align*}\n  \\frac{2x}{x+1}&&gt;1 \\\\\n   2x&&gt;x+1 \\\\\n   x&&gt;1\n\\end{align*}\n\\] which we then notice that \\(x&gt;1&gt;\\frac{1}{2}\\) which again is a contradiction to the second condition. Hence \\(B=\\emptyset\\).\n\n\n\n\n\n\n\n\nTipDefinition 0.5 - Order/Cardinality\n\n\n\nUnder this context, order and cardinality mean the same thing; the number of elements in a set, \\(A\\). The word “order” is used in many different contexts to have slightly different - but still equivalent meaning. Under the context of set theory, we’ll use cardinality to avoid confusion.\n\n\n\n\n\n\n\n\nTipNotation 0.4\n\n\n\nThe cardinality of the set \\(A\\) is denoted by \\(\\abs{A}\\)\n\n\n\n\n\n\n\n\nTipTechnique 0.1 - Double Inclusion\n\n\n\nLet \\(S, S'\\) be sets that are defined differently. Sometimes it is in our interest to prove that \\(S=S'\\), despite having arose from separate contexts. In this case, we often prove that \\(S\\subseteq S'\\) and \\(S\\supseteq S'\\) by showing that an arbitrary element in the subset will always be contained in the subset. This implies equality because this characteristic is unique to equal sets, due to the definition of subset. We call this proof method “double inclusion”.\n\n\n\n\n\n\n\n\nWarningExample 0.4 - Using double inclusion\n\n\n\nLet \\(S:=\\set{x\\in\\R\\mid1\\leq x\\leq2}, T:=\\set{5x\\mid x\\in S}\\).\nClaim to be shown; \\(T=\\set{y\\in\\R\\mid5\\leq y\\leq10}\\).\n\n\n\n\n\n\n\n\nImportantAnswer\n\n\n\n\n\nWe use double inclusion to show this.\n(\\(\\subseteq\\))\nSuppose \\(t\\in T\\implies t=5x\\) for some \\(x\\in S\\). By algebra, we know that \\(1\\leq x\\leq 2\\implies 5\\leq5x=t\\leq10\\) which by definition means that \\(t\\in\\set{y\\in\\R\\mid 5\\leq y\\leq 10}\\) as needed.\n(\\(\\supseteq\\)) Suppose \\(5z\\in\\set{y\\in\\R\\mid 5\\leq y\\leq10}\\) for some \\(z\\in\\R\\), \\(\\implies5\\leq 5z\\leq10\\) by definition. Then \\(1\\leq z\\leq 2\\) by algebra \\(\\implies z\\in S\\). Therefore, by definition of \\(T\\), we see that \\(5z\\in T\\) as required.\n\\(\\therefore T=\\set{y\\in\\R\\mid 5\\leq y\\leq10}\\) by double inclusion.\n\n\n\n\n\n\n\n\n\nTipDefinition 0.6 - Ordered pair\n\n\n\nAn ordered pair is a mathematical object with two entries, the first and second, written as \\((x,y)\\), where the order of the two entries will yield different results. e.g. \\((4,5)\\neq(5,4)\\). A use case of this is coordinates on the Euclidean plane.\n\n\n\n\n\n\n\n\nTipDefinition 0.7 - Cartesian Product\n\n\n\nThe “Cartesian product” of two sets \\(A,B\\) is the set of all ordered pairs with the first entry as an element of \\(A\\) and the second an element of \\(B\\).\n\n\n\n\n\n\n\n\nTipNotation 0.5\n\n\n\nCartesian product is denoted as follows; \\[\nA\\times B:=\\set{(a,b)\\mid a\\in A, b\\in B}\n\\]"
+  },
+  {
+    "objectID": "refined-notes/proof-techniques.html",
+    "href": "refined-notes/proof-techniques.html",
+    "title": "Proof Techniques",
+    "section": "",
+    "text": "CautionPrerequisites\n\n\n\n\n\n\nLogical Operators\nBasic Set Theory\n\n\n\n\n\n\n\n\n\n\nTipDefinition 0.1 - Types of results and miscellaneous terminology\n\n\n\n\n“Theorem” - An important mathematical result, usually the punchline\n“Proposition”/“Lemma” - A less important result, but is necessary in the proof of a bigger theorem\n“Corollary” - A somewhat straightforward consequence from a previous result\n“Remark” - May be similar to a corollary, or a note about language used\n“Technique” - A generalized strategy in order to solve a problem/prove a result\n“Algorithm” - A generalized step-by-step to perform some sort of computation\n“Definition” - A word, phrase, variable, or other which we define\n“Axiom” - Usually a rule which we define to create some space with a sort of ‘order’\n“Assume” - A condition which we take for granted for the proof\n“Arbitrary” - Any mathematical object (within some set of conditions)\n“Consider”/“Let” - Signalling that we are using a constant (may be explicit or arbitrary) or some fixed mathematical object\n“WTS” - Short for “want to show”, makes the goal clearer\n\n\n\n\n\n\n\n\n\nNoteRemark 0.1\n\n\n\nNote that most, if not all, mathematical statements can be read as \\(p\\implies q\\) to some capacity, where \\(p\\) is some condition and \\(q\\) is the result we wish to prove.\n\n\nFor all of the following techniques, consider we have the statement \\(p\\implies q\\) which we wish to prove, unless stated otherwise.\n\n\n\n\n\n\nTipTechnique 0.1 - Direct Proof\n\n\n\nA “direct proof” is when we start by assuming \\(p\\) is true, then by logic, definitions, axioms, and/or previous results, we make our way to getting the statement \\(q\\).\n\n\n\n\n\n\n\n\nTipTechnique 0.2 - Proof by Contrapositive\n\n\n\n“Proof by contrapositive” is when we show the contrapositive of the statement is true, that is \\((\\neg q) \\implies (\\neg p)\\), since this statement is logically equivalent to \\(p\\implies q\\), as shown in Logical Operators - Example 0.2.\n\n\n\n\n\n\n\n\nTipTechnique 0.3 - Proof by Contradiction\n\n\n\nSometimes none of the above techniques are clear answers to prove a statement, so we instead use “proof by contradiction”. This is when we assume that \\(p\\) is true and \\(q\\) is false. This should eventually lead to some sort of absurdity/contradiction.\n\n\n\n\n\n\n\n\nTipTechnique 0.4 - Cases\n\n\n\nA “proof by cases” is when we must divide the conditions into separate cases which still satisfy \\(p\\), and then use the appropriate proof technique on each case. In order to have a proof by cases, one must be careful of how each case is constructed, as the union must cover the whole set which the result is built upon, as well as not intersect.\n\n\n\n\n\n\n\n\nTipTechnique 0.5 - Principle of Mathematical Induction\n\n\n\nIf we are to prove a statement for all integers larger than some \\(n_0\\in\\Z\\), in the case of a regular direct proof, we would show that \\(p\\implies q\\) for an arbitrary \\(n\\), which then by the arbitrariness of \\(n\\) would suffice. However, this does not necessarily work for all proofs, so we instead employ the “principle of mathematical induction”.\nLet \\(S(n)\\) be the statement \\(p\\implies q\\) using the integer \\(n\\). The idea of this proof technique is to use the \\(n\\)th case to prove the \\(n+1\\)th case, which effectively proves the case for all integers larger than \\(n_0\\).\nThe steps are as follows;\n(i) Prove the “base case” - show that \\(S(n_0)\\) is true\n(ii) Inductive step - assume \\(S(n)\\) is true for some \\(n\\geq n_0\\), show that \\(S(n+1)\\) is true using the assumption\nOnce these steps are satisfied, then by the principle of mathematical induction (PMI), \\(S(n)\\) is true for all integers \\(n\\geq n_0\\).\n\n\n\n\n\n\n\n\nTipRemark 0.2\n\n\n\nOne can imagine PMI to be the same as lining up infinite dominos; if the first domino falls (base case is true), then the next domino will fall, and so forth, and the \\(n\\)th domino falls which causes the \\(n+1\\)th domino to fall (inductive step).\n\n\nThe proof that PMI works is due to the property of the integers.\nRelated: Number Theory &gt;\n\n\n\n\n\n\nTipTechnique 0.6 - Principle of Strong Induction\n\n\n\nLet \\(n_0\\in\\Z\\) and \\(S(n)\\) is a statement for the integer \\(n\\geq n_0\\).\n(i) Prove the “base case” - show that \\(S(n_0)\\) is true\n(ii) Inductive step - assume \\(S(n_0), S(n_0+1),\\ldots, S(n)\\) are all true for some \\(n\\geq n_0\\), show that \\(S(n+1)\\) is true using the assumption\nThis is what we call the “principle of strong induction”. This method is different from PMI above as we have a different amount of information which we can make use of in the inductive step.\n\n\n\n\n\n\n\n\nImportantProof\n\n\n\n\n\nThe proof for the principle of strong induction is by ordinary induction on \\(n\\).\nLet us rephrase the goal in a way which matches the definition of induction. Let \\(P(n)\\) be the statement that \\(S(k)\\) is true for all \\(n_0\\leq k\\leq n\\). We will use induction on \\(n\\) to show that \\(P(n)\\) is true for all \\(n\\geq n_0\\). Moreover, our statement to be proven is “steps (i) and (ii) are true implies \\(S(n)\\) is true \\(\\forall n\\geq n_0\\)”.\n(Base case: \\(P(n_0)\\))\n\\(P(n_0)\\) is the statement \\(S(n_0)\\) is true. This is provided by the assumption that step (i) is true.\n(Inductive step: Assume \\(P(n)\\) is true for some \\(n\\geq n_0\\), WTS \\(P(n+1)\\) is true)\n\\(P(n)\\) means \\(S(k)\\) is true for all \\(n_0\\leq k\\leq n\\). Since we assume step (ii) is true, this implies that \\(S(n+1)\\) is also true. Combining the two statements gives us that \\(S(k)\\) is true for all \\(n_0\\leq k\\leq n+1\\), i.e. \\(P(n+1)\\) is true as required.\nTherefore, by PMI, \\(P(n)\\) is true for all \\(n\\geq n_0\\). Hence, the principle of strong induction works for any statement, due to the arbitrariness of \\(S(k)\\)."
   }
 ]

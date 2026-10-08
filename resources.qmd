@@ -1,0 +1,14 @@
+---
+title: "Resources"
+---
+
+This page is just a list of math-related resources that I want to store. I may not have necessarily read all of them, nor have I necessarily used them to create this wiki. Feel free to take a look at those for your next math read!
+
+# Books
+- Abstract Algebra Fourth Edition - Beachy & Blaire
+- Abstract Algebra - Dummit & Foote
+- Linear Algebra Done Right - Axler
+- [Combinatorics Through Guided Discovery - Bogart](https://bogart.openmathbooks.org/ctgd/ctgd.html){target=._blank}
+- Latin Squares and their Applications - Keedwell & Denes
+
+# Links

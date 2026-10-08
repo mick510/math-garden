@@ -8,13 +8,22 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: rough-notes
+
+      - href: rough-notes.qmd
         text: Rough Notes
-      - href: refined-notes
-        text: Refined Notes
+
+      - text: Refined Notes
+        menu:
+          - href: refined-notes/navigation-pages/math-logic.qmd
+            text: Mathematical Logic
 
 format:
   html:
     html-math-method: mathjax
     include-in-header:
-      - latex-setup/commands.html
+      - latex-setup/macros.html
+    theme:
+      - darkly
+      - styles.scss
+
+callout-appearance: minimal

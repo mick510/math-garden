@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome to my Digital Garden – M’s Archives</title>
+<title>Protocol of sorts – M’s Archives</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-afa23945443c308674ce6f1b48cce6e4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-2bedcc22e7aa55eea72fbba08d87a8c1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,17 +74,20 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
-window.MathJax = {
+MathJax = {
   tex: {
     macros: {
-      R: "\\mathbb{R}",
-      N: "\\mathbb{N}",
-      Z: "\\mathbb{Z}",
-      Q: "\\mathbb{Q}",
-
-      abs: ["\\left|#1\\right|", 1],
-      norm: ["\\left\\|#1\\right\\|", 1],
-      set: ["\\left\\{#1\\right\\}", 1]
+      "N": "\\mathbb{N}",
+      "Z": "\\mathbb{Z}",
+      "Q": "\\mathbb{Q}",
+      "R": "\\mathbb{R}",
+      "C": "\\mathbb{C}",
+      "rbrac": ["\\left(#1\\right)", 1],
+      "sbrac": ["\\left[#1\\right]", 1],
+      "abrac": ["\\left<#1\\right>", 1],
+      "abs": ["\\lvert#1\\rvert", 1],
+      "set": ["\\left\\{#1\\right\\}", 1],
+      "st": "\\text{ s.t. }"
     }
   }
 };
@@ -111,7 +114,7 @@ window.MathJax = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -146,7 +149,7 @@ window.MathJax = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome to my Digital Garden</h1>
+<h1 class="title">Protocol of sorts</h1>
 </div>
 
 
@@ -163,44 +166,208 @@ window.MathJax = {
 </header>
 
 
-<section id="layout" class="level2">
-<h2 class="anchored" data-anchor-id="layout">Layout</h2>
-<p>There are two large sections; <a href="./rough-notes.html">Rough Notes</a> and <a href="./refined-notes.html">Refined Notes</a>.</p>
-<p>The <a href="./rough-notes.html">Rough Notes</a> folder will contain first draft notes/rough work just to be able to organize everything later. These will be messy so be warned.</p>
-<p>The <a href="./refined-notes.html">Refined Notes</a> folder will contain pages that are fully organized, with links between pages so that it’s easier to see connections and also refer back to any theorems/results. If you’re not sure where to start, I recommend starting here and look at some of the “Navigation pages” listed there.</p>
-<p>The <a href="./resources.html">Resources</a> page is just a list of math-related resources that I want to store. I may not have necessarily read all of them, nor have I necessarily used them to create this wiki. Feel free to take a look at those for your next math read!</p>
-</section>
-<section id="about-me" class="level2">
-<h2 class="anchored" data-anchor-id="about-me">About me</h2>
-<p>Hello! I go by M, I recently graduated with a BSc in Pure Math, and I hope to go to graduate school to eventually become a professor in an Algebra-related field.</p>
-<p>I decided to build this math wiki (of sorts) so I can prepare myself for a Master’s while I take a break from school to save up some money. The biggest struggle I had in undergraduate was how interconnected mathematics is, and I needed a big wiki for myself so I could see these connections + for organization purposes, but never had the time. I’m hoping this wiki is of use for others on their mathematical journey! I’ll be adding to this wiki constantly so stay tuned :))</p>
-<p>Feel free to contact me via any of the following;</p>
+<p>These are just personal reminders for how I’m formatting/shortcuts/etc. Feel free to use this for reference as well.</p>
+<section id="quarto-markdown" class="level1">
+<h1>Quarto markdown</h1>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<p><code>[Text shown](path)</code> - for linking pages</p>
 <ul>
-<li>email: <a href="mailto:msarchives314@gmail.com">msarchives314@gmail.com</a></li>
-<li>Instagram: <a href="https://www.instagram.com/msarchives314/"><span class="citation" data-cites="msarchives314">@msarchives314</span></a></li>
-<li>X: <a href="https://x.com/ms_archives314"><span class="citation" data-cites="ms_archives314">@ms_archives314</span></a></li>
+<li><code>../file-name.qmd</code> - if the file is in a previous folder</li>
+<li><code>../../file-name.qmd</code> - if the file is in two folders back and etc</li>
 </ul>
+<p><code>[Text shown](url)</code> - for external links</p>
+<p><code>[Text shown](url){target="_blank"}</code> - for external links and open in a new tab</p>
+<p><a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia - same tab</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia - new tab</a></p>
 </section>
-<section id="disclaimers-and-regulation" class="level2">
-<h2 class="anchored" data-anchor-id="disclaimers-and-regulation">Disclaimers and Regulation</h2>
+<section id="images" class="level2">
+<h2 class="anchored" data-anchor-id="images">Images</h2>
+<p><code>![image-caption](images/file-name.png){#image-0.1}</code> - “image-caption” will show up underneath the image, may be empty</p>
+<div id="image-0.1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/fxns-diagram.png" class="img-fluid figure-img"></p>
+<figcaption>Functions</figcaption>
+</figure>
+</div>
+<p>Checking if labelling is working: look at <a href="#image-0.1">Functions</a>.</p>
+</section>
+</section>
+<section id="formatting" class="level1">
+<h1>Formatting</h1>
+<p><code>#</code> for chapters, <code>##</code> for subchapters</p>
+<section id="callouts" class="level2">
+<h2 class="anchored" data-anchor-id="callouts">Callouts</h2>
+<p>Use callouts for definitions, results, examples, proofs, etc. Each must be labelled with <code>#type-number</code>, type is just the name of the type of result or other. e.g Definition would have type ‘definition’.</p>
+<div id="definition-0.1" class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Definition 0.1 - Functions
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Definition of function goes here.</p>
+</div>
+</div>
+<pre><code>::: {#definition-0.1 .callout-tip}
+## Definition 0.1 - Functions
+Definition of function goes here.
+:::</code></pre>
 <ul>
-<li>I am open to constructive feedback! If you find any of the following please feel free to contact me and I will edit the wiki to the best of my ability;
-<ul>
-<li>Errors - not everything is 100% accurate</li>
-<li>Inconsistencies in analogies, interpretations, generalizations - a lot of those will be personal so there may be caveats or might just not work at all</li>
-<li>Poor formatting/layout - if pages feel disorganized please tell me how you would like to see it improved</li>
-</ul></li>
-<li>Do not claim this work as your own - I have put a lot of time and effort into creating this, examples of this include but are not limited to;
-<ul>
-<li>Academic dishonesty - using proofs or answers to examples or other in assignments, papers, etc
-<ul>
-<li>This resembles a blog more than anything! Please don’t use this as a citation unless you are given permission or you think it is appropriate</li>
-</ul></li>
-<li>Claiming to be the creator on any platform or in real life</li>
-</ul></li>
+<li>Definitions</li>
+<li>Notation</li>
+<li>Axioms</li>
 </ul>
+<div id="theorem-0.1" class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Theorem 0.1 - Green’s Theorem
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Green’s Theorem goes here.</p>
+</div>
+</div>
+<pre><code>::: {#theorem-0.1 .callout-note}
+## Theorem 0.1 - Green's Theorem
+Green's Theorem goes here.
+:::</code></pre>
+<ul>
+<li>Theorems</li>
+<li>Propositions</li>
+<li>Corollaries</li>
+<li>Lemmas</li>
+<li>Remarks</li>
+</ul>
+<div id="example-0.1" class="callout callout-style-simple callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Example 0.1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The integers under addition is a group.</p>
+</div>
+</div>
+<pre><code>::: {#example-0.1 .callout-warning}
+## Example 0.1
+The integers under addition is a group.
+:::</code></pre>
+<ul>
+<li>Examples</li>
+</ul>
+<div id="answer-0.1" class="callout callout-style-simple callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>We show that the integers under addition is a group using the group definition.</p>
+</div>
+</div>
+</div>
+<pre><code>::: {#answer-0.1 .callout-important collapse=true}
+## Answer
+We show that the integers under addition is a group using the group definition.
+:::</code></pre>
+<ul>
+<li>Proofs</li>
+<li>Answers</li>
+</ul>
+<div id="prerequisite-page" class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Prerequisites
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Set notation</li>
+</ul>
+</div>
+</div>
+</div>
+<pre><code>::: {#prerequisite-page .callout-caution collapse=true}
+## Prerequisites
+- Set notation
+:::</code></pre>
+<ul>
+<li>Prerequisites (to the page) -&gt; prq</li>
+<li>Hints -&gt; hint</li>
+</ul>
+<p>Checking that the linking works. Look at <a href="#definition-0.1">the first definition</a>.</p>
+</section>
+<section id="numbering" class="level2">
+<h2 class="anchored" data-anchor-id="numbering">Numbering</h2>
+<ul>
+<li><p>Defining multiple terms in one definition callout; 1., 2., 3., etc</p></li>
+<li><p>One term has multiple conditions to be defined; (i), (ii), (iii), etc</p></li>
+<li><p>Multiple results in one result callout; (a), (b), (c), etc</p></li>
+<li><p>Multiple conditions for a result; (i), (ii), (iii), etc</p></li>
+</ul>
+<p>(i) Note that for these styles of lists</p>
+<p>(ii) Quarto automatically makes them into say ii.</p>
+<p>(a) Use backslashes before each bracket to make sure I get the brackets</p>
+<p>(b) i.e.&nbsp;use <code>\(b\)</code></p>
+</section>
+<section id="linking" class="level2">
+<h2 class="anchored" data-anchor-id="linking">Linking</h2>
+<p>When introducing notation for a definition, the defined word/phrase/other will not be linked.</p>
+<p>If I need to reference a result on a different page the shown text will be “Page Name - Result ##”. If I am referencing a result in the same page, it will just be “Result ##”.</p>
+<p>I will be linking every first instance of terminology in a callout and when I think it’s important.</p>
+<p>No links in the callout title.</p>
+<p>A lot of ‘basic’ terms won’t be linked unless it is the subject of the sentence/section.</p>
+<p>If I haven’t yet made a page/section about something I reference, it’ll lead to the construction page (<code>construction.qmd</code>).</p>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>List of “basic terms”
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Set</li>
+<li>Element</li>
+<li>Subset</li>
+<li>Set of numbers</li>
+<li>Intersect/Union</li>
+<li>Contradict/absurd</li>
+<li>Statement</li>
+<li>Direct proof</li>
+<li>Function/map</li>
+<li>Domain</li>
+</ul>
+</div>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

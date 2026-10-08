@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome to my Digital Garden – M’s Archives</title>
+<title>Number Systems – M’s Archives</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,23 +29,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-afa23945443c308674ce6f1b48cce6e4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-2bedcc22e7aa55eea72fbba08d87a8c1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,22 +74,54 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
-window.MathJax = {
+MathJax = {
   tex: {
     macros: {
-      R: "\\mathbb{R}",
-      N: "\\mathbb{N}",
-      Z: "\\mathbb{Z}",
-      Q: "\\mathbb{Q}",
-
-      abs: ["\\left|#1\\right|", 1],
-      norm: ["\\left\\|#1\\right\\|", 1],
-      set: ["\\left\\{#1\\right\\}", 1]
+      "N": "\\mathbb{N}",
+      "Z": "\\mathbb{Z}",
+      "Q": "\\mathbb{Q}",
+      "R": "\\mathbb{R}",
+      "C": "\\mathbb{C}",
+      "rbrac": ["\\left(#1\\right)", 1],
+      "sbrac": ["\\left[#1\\right]", 1],
+      "abrac": ["\\left<#1\\right>", 1],
+      "abs": ["\\lvert#1\\rvert", 1],
+      "set": ["\\left\\{#1\\right\\}", 1],
+      "st": "\\text{ s.t. }"
     }
   }
 };
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -100,7 +132,7 @@ window.MathJax = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">M’s Archives</span>
     </a>
   </div>
@@ -111,11 +143,11 @@ window.MathJax = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./rough-notes.html"> 
+    <a class="nav-link" href="../rough-notes.html"> 
 <span class="menu-text">Rough Notes</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -124,7 +156,7 @@ window.MathJax = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-refined-notes">    
         <li>
-    <a class="dropdown-item" href="./refined-notes/navigation-pages/math-logic.html">
+    <a class="dropdown-item" href="../refined-notes/navigation-pages/math-logic.html">
  <span class="dropdown-text">Mathematical Logic</span></a>
   </li>  
     </ul>
@@ -146,7 +178,7 @@ window.MathJax = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome to my Digital Garden</h1>
+<h1 class="title">Number Systems</h1>
 </div>
 
 
@@ -163,45 +195,117 @@ window.MathJax = {
 </header>
 
 
-<section id="layout" class="level2">
-<h2 class="anchored" data-anchor-id="layout">Layout</h2>
-<p>There are two large sections; <a href="./rough-notes.html">Rough Notes</a> and <a href="./refined-notes.html">Refined Notes</a>.</p>
-<p>The <a href="./rough-notes.html">Rough Notes</a> folder will contain first draft notes/rough work just to be able to organize everything later. These will be messy so be warned.</p>
-<p>The <a href="./refined-notes.html">Refined Notes</a> folder will contain pages that are fully organized, with links between pages so that it’s easier to see connections and also refer back to any theorems/results. If you’re not sure where to start, I recommend starting here and look at some of the “Navigation pages” listed there.</p>
-<p>The <a href="./resources.html">Resources</a> page is just a list of math-related resources that I want to store. I may not have necessarily read all of them, nor have I necessarily used them to create this wiki. Feel free to take a look at those for your next math read!</p>
-</section>
-<section id="about-me" class="level2">
-<h2 class="anchored" data-anchor-id="about-me">About me</h2>
-<p>Hello! I go by M, I recently graduated with a BSc in Pure Math, and I hope to go to graduate school to eventually become a professor in an Algebra-related field.</p>
-<p>I decided to build this math wiki (of sorts) so I can prepare myself for a Master’s while I take a break from school to save up some money. The biggest struggle I had in undergraduate was how interconnected mathematics is, and I needed a big wiki for myself so I could see these connections + for organization purposes, but never had the time. I’m hoping this wiki is of use for others on their mathematical journey! I’ll be adding to this wiki constantly so stay tuned :))</p>
-<p>Feel free to contact me via any of the following;</p>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Prerequisites
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <ul>
-<li>email: <a href="mailto:msarchives314@gmail.com">msarchives314@gmail.com</a></li>
-<li>Instagram: <a href="https://www.instagram.com/msarchives314/"><span class="citation" data-cites="msarchives314">@msarchives314</span></a></li>
-<li>X: <a href="https://x.com/ms_archives314"><span class="citation" data-cites="ms_archives314">@ms_archives314</span></a></li>
+<li><a href="../refined-notes/basic-set-theory.html">Set definition</a></li>
+<li><a href="../refined-notes/basic-set-theory.html">Set notation</a></li>
 </ul>
-</section>
-<section id="disclaimers-and-regulation" class="level2">
-<h2 class="anchored" data-anchor-id="disclaimers-and-regulation">Disclaimers and Regulation</h2>
-<ul>
-<li>I am open to constructive feedback! If you find any of the following please feel free to contact me and I will edit the wiki to the best of my ability;
-<ul>
-<li>Errors - not everything is 100% accurate</li>
-<li>Inconsistencies in analogies, interpretations, generalizations - a lot of those will be personal so there may be caveats or might just not work at all</li>
-<li>Poor formatting/layout - if pages feel disorganized please tell me how you would like to see it improved</li>
-</ul></li>
-<li>Do not claim this work as your own - I have put a lot of time and effort into creating this, examples of this include but are not limited to;
-<ul>
-<li>Academic dishonesty - using proofs or answers to examples or other in assignments, papers, etc
-<ul>
-<li>This resembles a blog more than anything! Please don’t use this as a citation unless you are given permission or you think it is appropriate</li>
-</ul></li>
-<li>Claiming to be the creator on any platform or in real life</li>
-</ul></li>
-</ul>
+</div>
+</div>
+</div>
+<p>In some branches of math, we tend to focus on one or some of these sets of numbers, or some [[Basic Set Theory#^def-cartesian-product|Cartesian product]] of these sets.</p>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Definition 0.1 - Integers
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The set of “integers” is the set, <span class="math inline">\(\Z:=\set{0,\pm1,\pm2,\ldots}\)</span>. The Z stands for the German word for numbers, “Zahlen”.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Definition 0.2 - Natural Numbers
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The “natural numbers” is the set of positive [[Number Systems#^def-integers|integers]] and <span class="math inline">\(0\)</span>, <span class="math inline">\(\N:=\set{x\in\Z\mid x\geq0}\)</span>.</p>
+</div>
+</div>
+<p><a href="../construction.html">Related: Number Theory &gt;</a></p>
+<p><a href="../construction.html">Related: Group Theory &gt;</a></p>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Definition 0.3 - Rationals
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The set of “rationals” is <span class="math display">\[
+\Q:=\set{\frac{a}{b}\middle| a,b\in\Z}
+\]</span></p>
+</div>
+</div>
+<p><a href="../construction.html">Related: Ring Theory &gt;</a></p>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Definition 0.4 - Real Numbers
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We define the set of “real numbers”, or “reals”, as <span class="math display">\[
+\R:=\set{\text{all decimal expansions}}
+\]</span></p>
+</div>
+</div>
+<p><a href="../construction.html">Related: Analysis &gt;</a></p>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Definition 0.5 - Complex Numbers
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The set of “complex numbers” is denoted by <span class="math display">\[
+\C:=\set{a+bi\mid a,b\in\R, i^2=-1}
+\]</span></p>
+</div>
+</div>
+<p><a href="../construction.html">Related: Complex Analysis &gt;</a></p>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Notation 0.1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>To denote strictly positive elements of a set of numbers, we’ll use a plus sign on the top right of the set symbol. e.g.&nbsp;<span class="math inline">\(\Z^+,\Q^+,\R^+\)</span>.</p>
 
 
-</section>
+</div>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
